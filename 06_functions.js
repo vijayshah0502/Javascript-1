@@ -192,10 +192,10 @@ function fuck(b) {
 
 
 //BMI calculator
-function bmi(weight, height) {
-   return weight / (height * height)
+// function bmi(weight, height) {
+//    return weight / (height * height)
      
-}
+// }
 
 // console.log(bmi(50, 1.7))
 
@@ -204,16 +204,56 @@ function bmi(weight, height) {
 
 
 //discount calculator 
-function discountCal(discount) {
-    return function(price) {
-        return price - price * (discount/100)
-    }
+// function discountCal(discount) {
+//     return function(price) {
+//         return price - price * (discount/100)
+//     }
 
-}
+// }
 
-let ten = discountCal(10)
-let twenty = discountCal(20)
+// let ten = discountCal(10)
+// let twenty = discountCal(20)
 
-result = ten(200)
+// result = ten(200)
 
-console.log(result);
+// console.log(result);
+
+
+//imp Qs and concept
+// function counter() {
+//     let count = 0;
+//     return function () {
+//         count++;
+//       return count
+        
+//     }
+// }
+
+// let c = counter()
+// console.log(c());
+// console.log(c());
+// console.log(c());
+// console.log(c());
+
+// let d = counter()
+// console.log(d());
+
+
+
+//Qs imp concept
+// function double(val) {
+//     return val * 2;
+// }
+
+
+// console.log(double(5));
+
+
+//iifi
+(function () {
+    const password = "secerte password"
+    console.log(password);
+    
+})()
+
+console.log(password)// error 
